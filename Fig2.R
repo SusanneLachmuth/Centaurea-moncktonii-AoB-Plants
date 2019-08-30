@@ -1,7 +1,7 @@
 # Code for Figure 2 and (if applicable) corresponding statistical analyses for publication
 # Lachmuth S, Molofsky J, Suda J, Milbrath L, Keller SR (accepted for AoB Plants on 17 June 2019) 
 # Associations between genomic ancestry, genome size and capitula morphology in the invasive meadow knapweed hybrid complex 
-# (Centaurea ×moncktonii C.E. Britton) in eastern North America
+# (Centaurea Ã—moncktonii C.E. Britton) in eastern North America
 
 ### Clean working directory:
 rm(list=ls())
@@ -21,8 +21,8 @@ library(pophelper)
 ### Read data:
 
 setwd("D:/data")
-# Load individual and reformat meta-data 
-metadata<-read.delim("metadata.txt", header=T,stringsAsFactors=F)
+# Load and reformat individual meta-data 
+metadata<-read.delim("ind_metadata.txt", header=T,stringsAsFactors=F)
 metadata2<-metadata[,c(3,1)]
 names(metadata2)<-c("Taxon","Pop")
 # Rename taxa

@@ -60,7 +60,7 @@ rgb(red=223,green=194,blue=125,names="Lbeige",maxColorValue=255)
 col_admix<-(c("#0000E9","#640000","#BF812D"))
 
 # Plot
-plotQ(qlist=admixK2_K3[1:2],grplab=metadata2,ordergrp=TRUE,imgoutput="join",subsetgrp=c("C.cf.nigra","C.cf.jacea","NY hybrids","VT hybrids"),outputfilename="Admixture_barplot_190521"
+plotQ(qlist=admixK2_K3[1:2],grplab=metadata2,ordergrp=TRUE,imgoutput="join",subsetgrp=c("C.cf.nigra","C.cf.jacea","NY hybrids","VT hybrids"),outputfilename="Admixture_barplot"
       ,clustercol = col_admix, splab=c("K2","K3"),splabsize=3,barbordersize=0.0,grplabsize=1.1) 
 
 
@@ -71,7 +71,7 @@ plotQ(qlist=admixK2_K3[1:2],grplab=metadata2,ordergrp=TRUE,imgoutput="join",subs
 col_NH <- c("#0000E9","#640000","#DFC27D" ,"#BF812D","#A6C0FF","#FF9DA3","#6682EC","#AA343B")
 
 # Plot
-plotQ(qlist=NH_LDjacea,grplab=metadata2,ordergrp=TRUE,subsetgrp=c("C.cf.nigra","C.cf.jacea","NY hybrids","VT hybrids"),outputfilename="NH_barplot_LDjacea_190521"
+plotQ(qlist=NH_LDjacea,grplab=metadata2,ordergrp=TRUE,subsetgrp=c("C.cf.nigra","C.cf.jacea","NY hybrids","VT hybrids"),outputfilename="NH_barplot_LDjacea"
       ,clustercol = col_NH, splabsize=3,barbordersize=0.0,grplabsize=1.1)
 
 
@@ -80,7 +80,7 @@ plotQ(qlist=NH_LDjacea,grplab=metadata2,ordergrp=TRUE,subsetgrp=c("C.cf.nigra","
 
 col_NH <- c("#0000E9","#640000","#DFC27D" ,"#BF812D","#A6C0FF","#FF9DA3","#6682EC","#AA343B")
 
-plotQ(qlist=NH_LDnigra,grplab=metadata2,ordergrp=TRUE,subsetgrp=c("C.cf.nigra","C.cf.jacea","NY hybrids","VT hybrids"),outputfilename="NH_barplot_LDnigra_190521"
+plotQ(qlist=NH_LDnigra,grplab=metadata2,ordergrp=TRUE,subsetgrp=c("C.cf.nigra","C.cf.jacea","NY hybrids","VT hybrids"),outputfilename="NH_barplot_LDnigra"
       ,clustercol = col_NH, splabsize=3,barbordersize=0.0,grplabsize=1.1)
 
 

@@ -2,10 +2,10 @@ Readme file for codes and data used in the following publication:
 
 # Lachmuth S, Molofsky J, Suda J, Milbrath L, Keller SR (accepted for AoB Plants on 17 June 2019) 
 # Associations between genomic ancestry, genome size and capitula morphology in the invasive meadow knapweed hybrid complex 
-# (Centaurea ×moncktonii C.E. Britton) in eastern North America
+# (Centaurea Ã—moncktonii C.E. Britton) in eastern North America
 
 
-For further inquiry, contact Susanne Lachmuth (susanne.lachmuth@botanik.uni-halle.de)				
+For further inquiry, contact Susanne Lachmuth (susanne.lachmuth@umces.edu)				
 and/or Stephen R. Keller (corresponding author, srkeller@uvm.edu)	
 
 
